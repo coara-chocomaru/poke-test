@@ -7,7 +7,8 @@
 
 LOCAL_PATH := device/alps/pocketalk
 
-
+PRODUCT_SHIPPING_API_LEVEL := 27
+PRODUCT_FIRST_API_LEVEL := 27
 
 PRODUCT_PACKAGES += \
     libcryptfs_hw
