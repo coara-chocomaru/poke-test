@@ -10,9 +10,9 @@ env:
   MANIFEST_BRANCH: 'twrp-8.1'
   DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/poke-test'
   DEVICE_TREE_BRANCH: 'main'
-  DEVICE_PATH: 'device/malata/ta2cm8'
-  DEVICE_NAME: 'ta2cm8'
-  MAKEFILE_NAME: 'omni_ta2cm8'
+  DEVICE_PATH: 'device/alps/pocketalk'
+  DEVICE_NAME: 'pocketalk'
+  MAKEFILE_NAME: 'omni_pocketalk'
   BUILD_TARGET: 'recovery'
 jobs:
   build:
