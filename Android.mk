@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),ta2cm8)
+ifeq ($(TARGET_DEVICE),pocketalk)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
