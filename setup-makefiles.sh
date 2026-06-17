@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=ta2cm8
-VENDOR=malata
+DEVICE=pocketalk
+VENDOR=alps
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
