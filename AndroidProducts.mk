@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ta2cm8.mk
+    $(LOCAL_DIR)/omni_pocketalk.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ta2cm8-user \
-    omni_ta2cm8-userdebug \
-    omni_ta2cm8-eng
+    omni_pocketalk-eng
