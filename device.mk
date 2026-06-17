@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/malata/ta2cm8
+LOCAL_PATH := device/alps/pocketalk
 
 
 
