@@ -5,23 +5,16 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/malata/ta2cm8
-BOARD_VENDOR := malata
-BOARD_DEVICE := ta2cm8
-BOARD_SUPPRESS_SECURE_ERASE := true
-
-
+DEVICE_PATH := device/alps/pocketalk
+BOARD_VENDOR := alps
+BOARD_DEVICE := pocketalk
 
 ALLOW_MISSING_DEPENDENCIES := true
-# disable
-TARGET_NO_TELEPHONY := true
-BOARD_GPS_LIBRARIES := false
-BOARD_HAS_GPS := false
+
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/recovery/root/vendor/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/recovery/root/vendor/manifest.xml
-
 
 # mtk
 BOARD_HAS_MTK_HARDWARE := true
